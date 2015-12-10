@@ -1,5 +1,5 @@
 # scut
-Window cmd shortcut/alias manager
+To use, drop scut.bat into a directory that is on your path.
 
 ```batch
 USAGE: scut [-l|-r|-a|-o] pathalias [pathToAlias]

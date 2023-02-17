@@ -116,12 +116,14 @@ goto :EOF
 :USAGE 
 echo.
 echo USAGE: %0 [-l^|-r^|-a^|-o] pathalias [pathToAlias]
-echo
+echo.
 echo 'pathalias' is a alias given to a path. 
 echo '-l' option will list available path aliases
 echo '-o' will open the pathalias in explorer
 echo '-r' will remove an alias from database
 echo '-a' will add 'pathToAlias' to the database
+echo. 
+echo 'scut pathalias' will cd into directory pointed to by pathalias
 goto :EOF
 
 :addPath

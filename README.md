@@ -1,4 +1,7 @@
 # scut
+scut is a little tool that gives you basic directory aliasing functionality on the windows command line.
+You can open a directory in explorer or cd into it.
+
 To use, drop scut.bat into a directory that is on your path.
 
 ```batch
@@ -26,3 +29,6 @@ To open "c:\user\blah" in windows explorer GUI
 
 To list the content of your alias database
 `scut -l`
+
+To change directory (cd) in an alias 
+`scut <pathalias>`

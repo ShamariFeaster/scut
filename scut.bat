@@ -14,7 +14,7 @@ IF "%1"=="" goto :USAGE
 IF "%1"=="-l" goto :LIST
 IF "%1"=="-o" goto :OPEN
 IF "%1"=="-a" goto :ADD
-IF "%1"=="-r" goto :REMOVE
+IF "%1"=="-d" goto :REMOVE
 
 call :consume "%_paths%"
 
@@ -115,12 +115,12 @@ goto :EOF
 
 :USAGE 
 echo.
-echo USAGE: %0 [-l^|-r^|-a^|-o] pathalias [pathToAlias]
+echo USAGE: %0 [-l^|-d^|-a^|-o] pathalias [pathToAlias]
 echo.
 echo 'pathalias' is a alias given to a path. 
 echo '-l' option will list available path aliases
 echo '-o' will open the pathalias in explorer
-echo '-r' will remove an alias from database
+echo '-d' will remove an alias from database
 echo '-a' will add 'pathToAlias' to the database
 echo. 
 echo 'scut pathalias' will cd into directory pointed to by pathalias

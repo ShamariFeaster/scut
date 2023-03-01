@@ -9,7 +9,7 @@ USAGE: scut [-l|-r|-a|-o] pathalias [pathToAlias]
   'pathalias' is a alias given to a path. 
   '-l' option will list available path aliases
   '-o' will open the pathalias in explorer
-  '-r' will remove an alias from database
+  '-d' will remove an alias from database
   '-a' will add 'pathToAlias' to the database
 ```
 
@@ -22,7 +22,7 @@ If your path has spaces in it surround it with quotes like so
 `scut -a blah "c:\path with space\blah"`
 
 To remove alias "blah"
-`scut -r blah`
+`scut -d blah`
 
 To open "c:\user\blah" in windows explorer GUI
 `scut -o blah`
